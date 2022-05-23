@@ -1,0 +1,66 @@
+{
+    "project" : [
+        {
+            "id" : 1,
+            "src" : "/img/projects/1.jpg",
+            "name" : "Project1",
+            "description" : "lorem lorem lorem lorem lorem lorem"      
+        },
+        {
+            "id" : 2,
+            "src" : "/img/projects/2.jpg",
+            "name" : "Project2",
+            "description" : "lorem lorem lorem lorem lorem lorem"      
+        },
+        {
+            "id" : 3,
+            "src" : "/img/projects/3.jpg",
+            "name" : "Project3",
+            "description" : "lorem lorem lorem lorem lorem lorem"      
+        },
+        {
+            "id" : 4,
+            "src" : "/img/projects/4.jpg",
+            "name" : "Project4",
+            "description" : "lorem lorem lorem lorem lorem lorem"      
+        },
+        {
+            "id" : 5,
+            "src" : "/img/projects/5.jpg",
+            "name" : "Project5",
+            "description" : "lorem lorem lorem lorem lorem lorem"      
+        }
+    ],
+    "team" : [
+        {
+            "id" : 1,
+            "src" : "/img/team/1.jpg",
+            "name" : "Team",
+            "description" : "lorem lorem lorem lorem lorem lorem" 
+        },
+        {
+            "id" : 2,
+            "src" : "/img/team/2.jpg",
+            "name" : "Team",
+            "description" : "lorem lorem lorem lorem lorem lorem" 
+        },
+        {
+            "id" : 3,
+            "src" : "/img/team/3.jpg",
+            "name" : "Team",
+            "description" : "lorem lorem lorem lorem lorem lorem" 
+        },
+        {
+            "id" : 4,
+            "src" : "/img/team/4.jpg",
+            "name" : "Team",
+            "description" : "lorem lorem lorem lorem lorem lorem" 
+        },
+        {
+            "id" : 5,
+            "src" : "/img/team/5.jpg",
+            "name" : "Team",
+            "description" : "lorem lorem lorem lorem lorem lorem" 
+        }
+    ]
+}
