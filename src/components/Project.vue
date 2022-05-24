@@ -45,36 +45,38 @@
                                     >
                                     <div id="projects" class="cbp">
                                         <div class="cbp-item" v-for="item of projects" :key="item.id">
-                                        <div class="project-item position-relative">
-                                            <div class="inner">
-                                            <figure class="effect-honey">
-                                                <img
-                                                :src="item.src"
-                                                alt="image"
-                                                />
-                                                <a class="stretched" href="/">
-                                                <figcaption>
-                                                    <div>
-                                                        <h2>
-                                                            <a
-                                                            class="stretched-link"
-                                                            href="/"
-                                                            >{{item.name}}</a>
-                                                        </h2>
-                                                        <h3>{{item.description}}</h3>
+                                            <router-link :to="`/project_one/${item.id}`">
+                                                <div class="project-item position-relative">
+                                                    <div class="inner">
+                                                    <figure class="effect-honey">
+                                                        <img
+                                                        :src="item.src"
+                                                        alt="image"
+                                                        />
+                                                        <a class="stretched" href="/">
+                                                        <figcaption>
+                                                            <div>
+                                                                <h2>
+                                                                    <a
+                                                                    class="stretched-link"
+                                                                    href="/"
+                                                                    >{{item.name}}</a>
+                                                                </h2>
+                                                                <h3>{{item.description}}</h3>
+                                                            </div>
+                                                        </figcaption>
+                                                        </a>
+                                                    </figure>
+                                                    <a
+                                                        class="project-zoom cbp-lightbox"
+                                                        href="/img/projects/1.jpg"
+                                                        data-title="title"
+                                                    >
+                                                        <i class="fa fa-arrows-alt"></i>
+                                                    </a>
                                                     </div>
-                                                </figcaption>
-                                                </a>
-                                            </figure>
-                                            <a
-                                                class="project-zoom cbp-lightbox"
-                                                href="/img/projects/1.jpg"
-                                                data-title="title"
-                                            >
-                                                <i class="fa fa-arrows-alt"></i>
-                                            </a>
-                                            </div>
-                                        </div>
+                                                </div>                                                
+                                            </router-link>
                                         </div>
                                     </div>
                                     
